@@ -5,10 +5,9 @@ import axios from "axios";
 export let loader = async () => {
   const response = await axios.get('https://patrol-test.myshopify.com/admin/product.json', {
     
-    //API Keys should of course be stored in .env files and not plain text 
-    //but this is a test store with default fake data so don't worry about this security fix
+    //An API Key will be provided in your test instructions
     headers: {
-      'X-Shopify-Access-Token': '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',
+      'X-Shopify-Access-Token': '',
     },
   });
   return json(response.data);
