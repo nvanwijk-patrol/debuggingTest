@@ -20,6 +20,7 @@ You have been provided with a Remix application designed to fetch products from 
 
 ### Bonus Objective:
 - **Use Strong Typing:** Refactor the code to use strong typing features of TypeScript wherever applicable. This includes defining interfaces or types for API responses, form data, and other key parts of the application.
+- **Migrate the app to use Shopify's GraphQL API:** Shopify is in the process of depreciating their REST API. Can you convert this application to the updated equivalent methods. 
 
 ### Additional Information:
 - **Sample Video:** A sample video of the functional application is provided to help you understand the expected behavior.
@@ -49,6 +50,7 @@ You have been provided with a Remix application designed to fetch products from 
 5. **Implement the Bonus Objective (Optional):**
    - Add comments to the codebase to improve readability and maintainability.
    - Use TypeScript’s strong typing features to define types or interfaces for the data structures and ensure type safety throughout the application.
+   - Retrieve the equivalent data from the GraphQL API as opposed to the REST API
 
 6. **Test Your Fixes:**
    - Test the application thoroughly to ensure all identified issues are resolved.
